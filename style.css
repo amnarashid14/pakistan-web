@@ -1,0 +1,94 @@
+
+.main {
+    display: flex;
+    background-color: rgb(228, 255, 228);
+    margin-top: 2em;
+    padding: 2em;
+}
+.about-sec h4{
+text-align: center;
+font-weight: bold;
+}
+#img {
+        transition-property: width , height;
+        transition-duration: 2s;
+        transition-timing-function: ease;
+        width: 30em; 
+        height: 20em;
+        margin-left: 5%;
+}
+
+#img:hover{
+width: 31em;
+height: 21em;
+}
+#portfolio{
+display: flex;
+width: 100%;
+justify-content: space-around;
+margin-top: 4%;
+}
+
+.card-body{
+    background-color: rgb(207, 251, 215);
+    height: 10em ;
+    
+    }
+    h4{
+        padding: 4%;
+    background-color: rgb(226, 249, 230);
+    }
+.p1{
+height: auto;
+}
+
+    .card img{
+    height: 15em;
+    }
+
+
+
+    .sec-footer{
+        padding: 1%;
+        height: 3%;
+        padding-top: 2%;
+        margin-top:2% ;
+        display: flex;
+        background-color: rgb(214, 253, 207);
+        }
+        
+        .sec-footer p{
+        background-color: rgb(240, 252, 242);
+        font-size: 1.2em;
+        text-align: center;
+        width: 70%;
+        margin-left:17%;
+        }
+
+
+
+        .footer{
+            height: 20%;
+            background-color: rgb(214, 253, 207);
+            padding: 2%;
+            display: flex;
+            margin-top: 3%;
+     
+            }
+            .right-footer{
+                width: 40%;
+                background-color: rgb(240, 252, 242);
+                padding: 2%;
+            }
+            #location{
+                border-left: 2px solid rgb(42, 128, 56);
+                border-left-style: dashed;
+                width: 60%;
+              
+                text-align: center;
+                padding: 4%;
+                background-color: rgb(240, 252, 242);
+            }
+            #location p{
+            margin-top: 6%;
+            }
